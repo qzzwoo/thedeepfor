@@ -1,6 +1,7 @@
 :root {
     --main-dark: #141414;
     --white: #ffffff;
+    --textbox: #1e201e;
 }
 
 body {
@@ -20,7 +21,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
+.top {
     background-color: var(--main-dark);
     background-image: linear-gradient(var(--main-dark) , #32774b27);
     border-radius: 5px;
@@ -47,4 +48,21 @@ main {
     width: 900px;
     margin-top: 20px;
     margin-bottom: 0px;
+}
+
+.textbox {
+    outline: none;
+    border: none;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    background-color: var(--textbox);
+    font-size: 15px;
+
+    margin: 20px;
+    margin-right: 0;
+    margin-top: 25px;
+
+    padding: 14px;
+    width: 200px;
 }
