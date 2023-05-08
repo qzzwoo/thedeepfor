@@ -1,7 +1,7 @@
 :root {
     --main-dark: #141414;
     --white: #ffffff;
-    --textbox: #1e201e;
+    --accent-1: #32774b27;
 }
 
 body {
@@ -23,7 +23,7 @@ html {
 
 .top {
     background-color: var(--main-dark);
-    background-image: linear-gradient(var(--main-dark) , #32774b27);
+    background-image: linear-gradient(var(--main-dark) , var(--accent-1));
     border-radius: 5px;
 
     margin-top: 200px;
@@ -56,7 +56,7 @@ html {
     color: var(--white);
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
-    background-color: var(--textbox);
+    background-color: var(--accent-1);
     font-size: 15px;
 
     margin: 20px;
