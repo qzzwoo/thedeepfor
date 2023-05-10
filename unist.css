@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 15%;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 100px;
 
     background-color: var(--main-dark);
     color: var(--white);
@@ -44,11 +44,26 @@ html {
     font-family: 'Roboto Mono', monospace;
 }
 
+.title_2 {
+    font-size: 28px;
+    margin: 20px;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
 .text {
     width: 900px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
+
+.text_2 {
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
 
 .textbox {
     outline: none;
