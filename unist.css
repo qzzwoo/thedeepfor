@@ -2,6 +2,7 @@
     --main-dark: #141414;
     --white: #ffffff;
     --accent-1: #32774b27;
+    --fade: #808080;
 }
 
 body {
@@ -21,7 +22,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-.top {
+.top_1 {
     background-color: var(--main-dark);
     background-image: linear-gradient(var(--main-dark) , var(--accent-1));
     border-radius: 5px;
@@ -34,9 +35,22 @@ html {
     width: 900px;
 }
 
-/* custom */
+.top_2 {
+    margin-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 
-.title {
+    width: 900px;
+}
+
+p {
+    margin: 0;
+}
+
+/* titles */
+
+.title_1 {
     font-size: 64px;
     width: 900px;
     margin: 0;
@@ -47,23 +61,62 @@ html {
 .title_2 {
     font-size: 28px;
     margin: 20px;
+    margin-top: 40px;
 
     font-family: 'Roboto Mono', monospace;
 }
 
-.text {
+.title_2b {
+    font-size: 28px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 0;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* texts */
+
+.text_1 {
     width: 900px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
-.text_2 {
+.text_1b {
     width: 900px;
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: 20px;
 }
 
+.text_1 {
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text_1c {
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.text_2 {
+    font-size: 8;
+    color: var(--fade);
+}
+
+.text_2b {
+    font-size: 8;
+    color: var(--fade);
+
+    margin-left: 20px;
+}
+
+/* custom */
 
 .textbox {
     outline: none;
@@ -74,10 +127,18 @@ html {
     background-color: var(--accent-1);
     font-size: 15px;
 
-    margin: 20px;
+    margin-left: 20px;
     margin-right: 0;
+    margin-bottom: 20px;
     margin-top: 25px;
 
     padding: 14px;
     width: 200px;
+}
+
+.option {
+    text-decoration: none;
+    color: var(--fade);
+
+    margin-left: 20px;
 }
