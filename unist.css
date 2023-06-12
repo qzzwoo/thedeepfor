@@ -1,8 +1,14 @@
 :root {
-    --main-dark: #141414;
+    --main-dark: #0c0d0f;
+    --theme-2: #17191d;
+
     --white: #ffffff;
     --accent-1: #32774b27;
     --fade: #808080;
+
+    --sea-green: #599052;
+    --select-yellow: #ffba08;
+    --bittersweet-red: #ff5c5c;
 }
 
 body {
@@ -36,7 +42,7 @@ html {
 }
 
 .top_2 {
-    margin-top: 200px;
+    margin-top: 150px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -47,6 +53,12 @@ html {
 p {
     margin: 0;
 }
+
+main > img {
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+}  
 
 /* titles */
 
@@ -68,10 +80,18 @@ p {
 
 .title_2b {
     font-size: 28px;
-    margin: 20px;
     margin-top: 40px;
     margin-bottom: 10px;
     margin-left: 0;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title_2c {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 
     font-family: 'Roboto Mono', monospace;
 }
@@ -89,6 +109,17 @@ p {
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: 20px;
+}
+
+.text_1b_color {
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+
+    background-image: linear-gradient(var(--accent-1) , var(--main-dark));
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .text_1 {
@@ -118,6 +149,37 @@ p {
 
 /* custom */
 
+.option {
+    text-decoration: none;
+    color: var(--fade);
+
+    margin-left: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icon_2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--select-yellow);
+}
+
+.loggedin {
+    display: flex;
+    align-items: center;
+}
+
+.login_wrapper {
+    margin-left: 20px;
+}
+
+/* textboxes */
+
 .textbox {
     outline: none;
     border: none;
@@ -136,9 +198,15 @@ p {
     width: 200px;
 }
 
-.option {
-    text-decoration: none;
-    color: var(--fade);
+.textbox1 {
+    width: 950px;
+    height: 500px;
+    background-color: var(--theme-2);
 
+    margin-top: 20px;
     margin-left: 20px;
+    padding-top: 35px;
+    padding-left: 35px;
+    
+    border-radius: 5px;
 }
